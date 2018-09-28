@@ -56,6 +56,17 @@
         </label>
         <br>
         <br>
+
+        <label class="lead">Area where bunny lives:</label>
+        <select>
+            <option value="select size" disabled selected>Select area</option>
+            <option value="teeny">Scotland</option>
+            <option value="small">England</option>
+            <option value="medium">Wales</option>
+            <option value="big">Northern Ireland</option>
+        </select>
+        <br>
+        <br>
         <label class="lead">Bunny colour:</label>
         <input type="text" name="Bunny colour" placeholder="type bunny colour">
         <br>
@@ -76,26 +87,19 @@
 
         <select>
             <option value="select age" disabled selected>Select age</option>
-            <option value="0">less than 1</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="10+">more than 10 </option>
+            <option value="0">baby bunny</option>
+            <option value="1">teenaged bunny</option>
+            <option value="2">middle-aged bunny</option>
+            <option value="3">elderly bunny</option>
+            <option value="4">bunny as old as time</option>
         </select>
         <br>
         <br>
-        <button type="button" class="btn btn-outline-success">
+        <button type="button" data-toggle="tooltip " title="Submit bunny data now!" class="btn btn-outline-success">
             <i class="fa fa-envelope"></i> Submit</button>
-        <button type="button" class="btn btn-outline-primary">
+        <button type="button" data-toggle="tooltip " title="All bunny data here!" class="btn btn-outline-primary">
             <i class="fa fa-user-secret"></i> Stats</button>
-        <button type="button" class="btn btn-outline-danger">
+        <button type="button" data-toggle="tooltip " title="What is this bunny census anyway?!" class="btn btn-outline-danger">
             <i class="fa fa-ambulance"></i> Help</button>
     </form>
 
