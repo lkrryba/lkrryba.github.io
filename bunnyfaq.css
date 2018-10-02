@@ -1,0 +1,15 @@
+body {
+  margin: 1em;
+}
+
+.center-img {
+  display: block;
+  margin: auto;
+  width: 14em;
+}
+
+.center {
+  display: block;
+  margin: auto;
+  max-width: 50vh;
+}
