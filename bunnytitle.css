@@ -13,6 +13,10 @@ body {
   width: 14em;
 }
 
+.title {
+  padding-top: 4vh;
+}
+
 .center-form {
   display: block;
   margin: auto;
@@ -23,28 +27,19 @@ body {
   display: block;
   margin: auto;
 }
+/*------------------footer-----------*/
 
 footer {
-  display: block;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  background: linear-gradient(to right, #b3cccc, #adebeb);
-  height: 55px;
-  position: static;
+  background-image: linear-gradient(to right, #b3cccc, #adebeb);
+  padding: 40px 5px;
+  color: black;
 }
 
-#footer-text {
-  margin-left: 1vh;
-}
-
-#plane {
-  float: right;
-  margin-right: 1.5vh;
-  margin-top: -6vh;
+#bunnyright {
+  float: left;
 }
 
 #website {
-  margin-top: -2.5vh;
-  margin-left: 1.5vh;
+  float: right;
 }
