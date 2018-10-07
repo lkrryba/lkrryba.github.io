@@ -1,5 +1,9 @@
+html {
+  height: 100%;
+}
+
 body {
-  margin: 1em;
+  height: 100%;
 }
 
 .center-img {
@@ -17,4 +21,30 @@ body {
 .center-button {
   display: block;
   margin: auto;
+}
+
+footer {
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right, #b3cccc, #adebeb);
+  height: 10vh;
+  position: absolute;
+  margin-bottom: -10vh;
+}
+
+#footer-text {
+  margin-left: 1vh;
+}
+
+#plane {
+  float: right;
+  margin-right: 1.5vh;
+  margin-top: -6vh;
+}
+
+#website {
+  margin-top: -2.5vh;
+  margin-left: 1.5vh;
 }
