@@ -15,3 +15,15 @@ body {
   margin-right: auto;
   max-width: 25em;
 }
+
+.temperament {
+  display: none;
+}
+
+.temperament + label:before {
+  content: "◽️";
+}
+
+.temperament:checked + label:before {
+  content: "🐰";
+}
