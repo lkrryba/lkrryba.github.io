@@ -15,9 +15,7 @@
   integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+"
   crossorigin="anonymous"
 />
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="bunnyform.js"></script>
+
 <link rel="stylesheet" href="animate.css" />
 <html>
   <body>
@@ -44,6 +42,7 @@
       <footer class="blockquote-footer">John Steinbeck</footer>
     </blockquote>
 
+    <!--census form-->
     <form class="center-form">
       <br />
       <label class="lead">Bunny name:</label>
@@ -135,12 +134,12 @@
       />
       <label for="stompy">Stompy</label>
       <input
-        id="frollicky"
+        id="playful"
         type="checkbox"
         class="temperament"
         name="temperament"
       />
-      <label for="frollicky">Frollicky</label>
+      <label for="playful">Playful</label>
       <input
         id="nervous"
         type="checkbox"
@@ -178,15 +177,20 @@
       </select>
       <br />
       <br />
+    </form>
 
-      <a
-        href="#"
-        class="btn btn-outline-success"
-        data-toggle="tooltip "
-        title="Census coming soon!"
-      >
-        <i class="fa fa-envelope"></i> Submit
-      </a>
+    <!--buttons-->
+    <div class="button-group">
+      <button id="submit">
+        <a
+          href="#"
+          class="btn btn-outline-success"
+          data-toggle="tooltip "
+          title="Census coming soon!"
+        >
+          <i class="fa fa-envelope"></i> Submit
+        </a>
+      </button>
 
       <a
         href="#"
@@ -205,6 +209,11 @@
       >
         <i class="fa fa-ambulance"></i> Help
       </a>
-    </form>
+    </div>
   </body>
 </html>
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="bunnyform.js"></script>
+<script src="bunnyformsubmit.js"></script>

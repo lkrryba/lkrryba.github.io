@@ -12,3 +12,11 @@ body {
   margin-right: auto;
   width: 14em;
 }
+
+ul li {
+  color: blueviolet;
+}
+
+/* .invisible {
+  color: black;
+} */

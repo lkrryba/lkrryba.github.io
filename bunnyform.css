@@ -27,3 +27,13 @@ body {
 .temperament:checked + label:before {
   content: "🐰";
 }
+
+.button-group {
+  width: 25em;
+  margin: 0 auto;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
